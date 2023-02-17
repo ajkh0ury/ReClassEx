@@ -1,0 +1,1080 @@
+#pragma code_page(65001)
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#include ""afxres.rc""      // Standard components\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""afxprint.rc""        // printing/print preview resources\r\n"
+    "#include ""afxribbon.rc""        // MFC ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\icons\\icon.ico"
+
+IDI_ICON_CLASS          ICON                    "res\\icons\\general_class_VS.ico"
+
+IDI_ICON_METHOD         ICON                    "res\\icons\\general_method_VS.ico"
+
+IDI_ICON_OPEN           ICON                    "res\\icons\\open.ico"
+
+IDI_ICON_CLOSED         ICON                    "res\\icons\\closed.ico"
+
+IDI_ICON_VTABLE         ICON                    "res\\icons\\general_interface_VS.ico"
+
+IDI_ICON_DELETE         ICON                    "res\\icons\\close.ico"
+
+IDI_ICON_ADD            ICON                    "res\\icons\\add.ico"
+
+IDI_ICON_RANDOM         ICON                    "res\\icons\\speles_random_ico.ico"
+
+IDI_ICON_DROPARROW      ICON                    "res\\icons\\arrow_icon.ico"
+
+IDI_ICON_POINTER        ICON                    "res\\icons\\pointer.ico"
+
+IDI_ICON_ARRAY          ICON                    "res\\icons\\array.ico"
+
+IDI_ICON_CUSTOM         ICON                    "res\\icons\\custom.ico"
+
+IDI_ICON_ENUM           ICON                    "res\\icons\\enum.ico"
+
+IDI_ICON_FLOAT          ICON                    "res\\icons\\float.ico"
+
+IDI_ICON_LEFT           ICON                    "res\\icons\\left.ico"
+
+IDI_ICON_RIGHT          ICON                    "res\\icons\\right.ico"
+
+IDI_ICON_MATRIX         ICON                    "res\\icons\\matrix.ico"
+
+IDI_ICON_INTEGER        ICON                    "res\\icons\\signed.ico"
+
+IDI_ICON_TEXT           ICON                    "res\\icons\\text.ico"
+
+IDI_ICON_UNSIGNED       ICON                    "res\\icons\\unsigned.ico"
+
+IDI_ICON_VECTOR         ICON                    "res\\icons\\vector.ico"
+
+IDI_ICON_CHANGE         ICON                    "res\\icons\\exchange.ico"
+
+IDI_ICON_CAMERA         ICON                    "res\\icons\\camera.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\mainframe.bmp"
+
+IDB_FILELARGE           BITMAP                  "res\\filelarge.bmp"
+
+IDB_FILESMALL           BITMAP                  "res\\filesmall.bmp"
+
+IDB_WRITELARGE          BITMAP                  "res\\writelarge.bmp"
+
+IDB_WRITESMALL          BITMAP                  "res\\writesmall.bmp"
+
+IDB_ICON                BITMAP                  "res\\icon.bmp"
+
+IDR_HOME_LARGE_24       BITMAP                  "res\\home_large.bmp"
+
+IDR_HOME_SMALL_24       BITMAP                  "res\\home_small.bmp"
+
+IDB_BITMAP_BUTTON       BITMAP                  "res\\button.bmp"
+
+IDB_CLASSBITMAP         BITMAP                  "res\\classicon.bmp"
+
+IDR_MENU_MODIFY         BITMAP                  "res\\menu_modify.bmp"
+
+IDB_BITMAP_ABOUT        BITMAP                  "res\\about.bmp"
+
+IDR_FILE_SMALL          BITMAP                  "res\\file_small.bmp"
+
+IDR_FILE_LARGE          BITMAP                  "res\\file_large.bmp"
+
+IDR_TOOLBAR2            BITMAP                  "res\\toolbar1.bmp"
+
+IDR_MAINFRAME_256       BITMAP                  "res\\mainframe256.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_FILE_SAVE_AS
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_HOME_LARGE_24 TOOLBAR 32, 32
+BEGIN
+    BUTTON      ID_BUTTON_ICON_PROCESS
+    BUTTON      ID_BUTTON_ICON_CODE_GENERATION
+    BUTTON      ID_BUTTON_ICON_NEW_CLASS
+    BUTTON      ID_BUTTON_ICON_CLASS_BROWSER
+    BUTTON      ID_BUTTON_ICON_NOTES
+    BUTTON      ID_BUTTON_ICON_CONSOLE
+    BUTTON      ID_BUTTON_ICON_SEARCH
+    BUTTON      ID_BUTTON_ICON_RESET
+    BUTTON      ID_BUTTON_ICON_MODULES
+END
+
+IDR_HOME_SMALL_24 TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_BUTTON_ICON_PAUSE_SM
+    BUTTON      ID_BUTTON_ICON_RESUME_SM
+    BUTTON      ID_BUTTON_ICON_STOP_SM
+    BUTTON      ID_BUTTON_ICON_TYPEDEF_SM
+    BUTTON      ID_BUTTON_ICON_HEADER_SM
+    BUTTON      ID_BUTTON_ICON_FOOTER_SM
+    BUTTON      ID_BUTTON_ICON_DELETE_SM
+    BUTTON      ID_BUTTON_ICON_CLEAN_SM
+    BUTTON      ID_BUTTON_ICON_CODE_SM
+    BUTTON      ID_BUTTON_ICON_CLASS_SM
+    BUTTON      ID_BUTTON32940
+    BUTTON      ID_BUTTON_ICON_DEBUG_SM
+    BUTTON      ID_BUTTON_ICON_NOTES_SM
+    BUTTON      ID_BUTTON_ICON_RESET_SM
+    BUTTON      ID_BUTTON_ICON_PROCESS_SM
+    BUTTON      ID_BUTTON32945
+    BUTTON      ID_BUTTON_ICON_SEARCH_SM
+    BUTTON      ID_BUTTON_ICON_ABOUT_SM
+END
+
+IDR_MENU_MODIFY TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_BUTTON_ICON_ADD4
+    BUTTON      ID_BUTTON_ICON_ADD8
+    BUTTON      ID_BUTTON_ICON_ADD64
+    BUTTON      ID_BUTTON_ICON_ADD1024
+    BUTTON      ID_BUTTON_ICON_ADD2048
+    BUTTON      ID_BUTTON_ICON_INSERT4
+    BUTTON      ID_BUTTON_ICON_INSERT8
+    BUTTON      ID_BUTTON_ICON_INSERT64
+    BUTTON      ID_BUTTON_ICON_INSERT1024
+    BUTTON      ID_BUTTON_ICON_INSERT2048
+    BUTTON      ID_BUTTON_ICON_DELETE
+    BUTTON      ID_BUTTON_ICON_SHOW
+    BUTTON      ID_BUTTON_ICON_HIDE
+    BUTTON      ID_BUTTON_ICON_HEX64
+    BUTTON      ID_BUTTON_ICON_HEX32
+    BUTTON      ID_BUTTON_ICON_HEX16
+    BUTTON      ID_BUTTON_ICON_HEX8
+    BUTTON      ID_BUTTON_ICON_INT64
+    BUTTON      ID_BUTTON_ICON_INT32
+    BUTTON      ID_BUTTON_ICON_INT16
+    BUTTON      ID_BUTTON_ICON_INT8
+    BUTTON      ID_BUTTON_ICON_QWORD
+    BUTTON      ID_BUTTON_ICON_DWORD
+    BUTTON      ID_BUTTON_ICON_WORD
+    BUTTON      ID_BUTTON_ICON_BYTE
+    BUTTON      ID_BUTTON_ICON_DOUBLE
+    BUTTON      ID_BUTTON_ICON_FLOAT
+    BUTTON      ID_BUTTON_ICON_CUSTOM
+    BUTTON      ID_BUTTON_ICON_VEC2
+    BUTTON      ID_BUTTON_ICON_VEC3
+    BUTTON      ID_BUTTON_ICON_VEC4
+    BUTTON      ID_BUTTON_ICON_MATRIX
+    BUTTON      ID_BUTTON_ICON_ARRAY
+    BUTTON      ID_BUTTON_ICON_CLASS
+    BUTTON      ID_BUTTON_ICON_VTABLE
+    BUTTON      ID_BUTTON_ICON_FUNCTION
+    BUTTON      ID_BUTTON_ICON_POINTER
+    BUTTON      ID_BUTTON_ICON_FILL_ZERO
+    BUTTON      ID_BUTTON_ICON_FILL_ONE
+    BUTTON      ID_BUTTON_ICON_FILL_RAND
+    BUTTON      ID_BUTTON_ICON_SWAP_BYTES
+    BUTTON      ID_BUTTON_ICON_TEXT
+    BUTTON      ID_BUTTON_ICON_UNICODE
+    BUTTON      ID_BUTTON_ICON_PCHAR
+    BUTTON      ID_BUTTON_ICON_PWCHAR
+    BUTTON      ID_BUTTON_ICON_BITS
+END
+
+IDR_FILE_SMALL TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_FILE_SAVE_AS
+    BUTTON      ID_BUTTON32904
+    BUTTON      ID_BUTTON32905
+    BUTTON      ID_BUTTON32926
+    BUTTON      ID_BUTTON32927
+    BUTTON      ID_BUTTON32928
+    BUTTON      ID_BUTTON32939
+    BUTTON      ID_BUTTON32940
+END
+
+IDR_FILE_LARGE TOOLBAR 32, 32
+BEGIN
+    BUTTON      ID_BUTTON32895
+    BUTTON      ID_BUTTON32906
+    BUTTON      ID_BUTTON32907
+    BUTTON      ID_BUTTON32908
+    BUTTON      ID_BUTTON32909
+    BUTTON      ID_BUTTON_ICON_CONSOLE
+    BUTTON      ID_BUTTON32911
+    BUTTON      ID_BUTTON32912
+    BUTTON      ID_BUTTON33038
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O ",           ID_FILE_OPEN
+        MENUITEM "&Save...\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "&Save As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Classes",                     ID_BUTTON_SHOWCLASSES
+        MENUITEM "Import",                      ID_FILE_IMPORT
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        POPUP "&Application Look"
+        BEGIN
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "Windows &2000",               ID_VIEW_APPLOOK_WIN_2000
+                MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_OFF_XP
+                MENUITEM "&Windows XP",                 ID_VIEW_APPLOOK_WIN_XP
+                MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_OFF_2003
+                MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+                MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "&Aqua Style",                 ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ReClassEx...\tShift+A", ID_APP_ABOUT
+    END
+END
+
+IDR_ReClassExTYPE MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save...\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "&Save As...",                 ID_FILE_SAVE_AS
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Windows &2000",               ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "&Windows XP",                 ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "&Aqua Style",                 ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ReClassEx...\tShift+A", ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Clear",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide",                       ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_MENU_MODIFY MENU
+BEGIN
+    POPUP "Add"
+    BEGIN
+        MENUITEM "Add 4",                       ID_ADD_ADD4
+        MENUITEM "Add 8",                       ID_ADD_ADD8
+        MENUITEM "Add 64",                      ID_ADD_ADD64
+        MENUITEM "Add 1024",                    ID_ADD_ADD1024
+        MENUITEM "Add 2048",                    ID_ADD_ADD2048
+    END
+    POPUP "Insert"
+    BEGIN
+        MENUITEM "Insert 4",                    ID_INSERT_INSERT4
+        MENUITEM "Insert 8",                    ID_INSERT_INSERT8
+        MENUITEM "Insert 64",                   ID_INSERT_INSERT64
+        MENUITEM "Insert 1024",                 ID_INSERT_INSERT1024
+        MENUITEM "Insert 2048",                 ID_INSERT_INSERT2048
+    END
+    POPUP "Modify"
+    BEGIN
+        MENUITEM "Delete",                      ID_MODIFY_DELETE
+        MENUITEM "Show",                        ID_MODIFY_SHOW
+        MENUITEM "Hide",                        ID_MODIFY_HIDE
+    END
+    POPUP "Type"
+    BEGIN
+        MENUITEM "Hex 64",                      ID_TYPE_HEX64
+        MENUITEM "Hex 32",                      ID_TYPE_HEX32
+        MENUITEM "Hex 16",                      ID_TYPE_HEX16
+        MENUITEM "Hex 8",                       ID_TYPE_HEX8
+        MENUITEM "Bits",                        ID_TYPE_BITS
+        MENUITEM "Int 64",                      ID_TYPE_INT64
+        MENUITEM "Int 32",                      ID_TYPE_INT32
+        MENUITEM "Int 16",                      ID_TYPE_INT16
+        MENUITEM "Int 8",                       ID_TYPE_INT8
+        MENUITEM "QWord",                       ID_TYPE_QWORD
+        MENUITEM "DWord",                       ID_TYPE_DWORD
+        MENUITEM "Word",                        ID_TYPE_WORD
+        MENUITEM "Byte",                        ID_TYPE_BYTE
+        MENUITEM "ASCII",                       ID_TYPE_TEXT
+        MENUITEM "PCHAR",                       ID_TYPE_PCHAR
+        MENUITEM "Unicode",                     ID_TYPE_UNICODE
+        MENUITEM "Float",                       ID_TYPE_FLOAT
+        MENUITEM "Double",                      ID_TYPE_DOUBLE
+        MENUITEM "Custom",                      ID_TYPE_CUSTOM
+        MENUITEM "Vec 2",                       ID_TYPE_VEC2
+        MENUITEM "Vec 3",                       ID_TYPE_VEC3
+        MENUITEM "Vec 4",                       ID_TYPE_QUAT
+        MENUITEM "Matrix",                      ID_TYPE_MATRIX
+        MENUITEM "Pointer",                     ID_TYPE_POINTER
+        MENUITEM "Array",                       ID_TYPE_ARRAY
+        MENUITEM "Class",                       ID_TYPE_CLASS
+        MENUITEM "VTable",                      ID_TYPE_VTABLE
+        MENUITEM "Function",                    ID_TYPE_FUNCTION
+    END
+END
+
+IDR_MENU_QUICKMODIFY MENU
+BEGIN
+    POPUP "Quick Modify"
+    BEGIN
+        POPUP "Type"
+        BEGIN
+            MENUITEM "Hex 64",                      ID_TYPE_HEX64
+            MENUITEM "Hex 32",                      ID_TYPE_HEX32
+            MENUITEM "Hex 16",                      ID_TYPE_HEX16
+            MENUITEM "Hex 8",                       ID_TYPE_HEX8
+            MENUITEM "Bits",                        ID_TYPE_BITS
+            MENUITEM "Int 64",                      ID_TYPE_INT64
+            MENUITEM "Int 32",                      ID_TYPE_INT32
+            MENUITEM "Int 16",                      ID_TYPE_INT16
+            MENUITEM "Int 8",                       ID_TYPE_INT8
+            MENUITEM "QWord",                       ID_TYPE_QWORD
+            MENUITEM "DWord",                       ID_TYPE_DWORD
+            MENUITEM "Word",                        ID_TYPE_WORD
+            MENUITEM "Byte",                        ID_TYPE_BYTE
+            MENUITEM "ASCII",                       ID_TYPE_TEXT
+            MENUITEM "PCHAR",                       ID_TYPE_PCHAR
+            MENUITEM "Unicode",                     ID_TYPE_UNICODE
+            MENUITEM "Float",                       ID_TYPE_FLOAT
+            MENUITEM "Double",                      ID_TYPE_DOUBLE
+            MENUITEM "Custom",                      ID_TYPE_CUSTOM
+            MENUITEM "Vec 2",                       ID_TYPE_VEC2
+            MENUITEM "Vec 3",                       ID_TYPE_VEC3
+            MENUITEM "Vec 4",                       ID_TYPE_QUAT
+            MENUITEM "Matrix",                      ID_TYPE_MATRIX
+            MENUITEM "Pointer",                     ID_TYPE_POINTER
+            MENUITEM "Array",                       ID_TYPE_ARRAY
+            MENUITEM "Class",                       ID_TYPE_CLASS
+            MENUITEM "VTable",                      ID_TYPE_VTABLE
+            MENUITEM "Function",                    ID_TYPE_FUNCTION
+        END
+        POPUP "Add"
+        BEGIN
+            MENUITEM "Add 4",                       ID_ADD_ADD4
+            MENUITEM "Add 8",                       ID_ADD_ADD8
+            MENUITEM "Add 64",                      ID_ADD_ADD64
+            MENUITEM "Add 1024",                    ID_ADD_ADD1024
+            MENUITEM "Add 2048",                    ID_ADD_ADD2048
+        END
+        POPUP "Insert"
+        BEGIN
+            MENUITEM "Insert 4",                    ID_INSERT_INSERT4
+            MENUITEM "Insert 8",                    ID_INSERT_INSERT8
+            MENUITEM "Insert 64",                   ID_INSERT_INSERT64
+            MENUITEM "Insert 1024",                 ID_INSERT_INSERT1024
+            MENUITEM "Insert 2048",                 ID_INSERT_INSERT2048
+        END
+        POPUP "Modify"
+        BEGIN
+            MENUITEM "Delete",                      ID_MODIFY_DELETE
+            MENUITEM "Show",                        ID_MODIFY_SHOW
+            MENUITEM "Hide",                        ID_MODIFY_HIDE
+        END
+    END
+END
+
+IDR_MENU_EDITOR MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open",                        ID_FILE_EDITOROPEN
+        MENUITEM "Save As...",                  ID_FILE_EDITORSAVEAS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ReClassExTYPE ACCELERATORS
+BEGIN
+    "A",            ID_APP_ABOUT,           VIRTKEY, CONTROL, ALT, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE_AS,        VIRTKEY, CONTROL, ALT, NOINVERT
+END
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 273, 204
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "ReClassEx",IDC_STATIC,13,54,117,8
+    CTEXT           "This is a complete port of ReClass to x64, which contains new features. ReClass was originally written by DrUnKeN ChEeTaH, then later developed by P47R!CK and DogMatt.",IDC_STATIC,9,86,256,27
+    LTEXT           "Version: x.x.x.x",IDC_ABOUT_BUILD_VERSION,13,63,127,8
+    LTEXT           "Build Date: xx:xx:xxxx",IDC_ABOUT_BUILD_DATE,13,73,125,8
+    CTEXT           "Thanks to all the authors who contributed to ReClass:",IDC_STATIC,9,112,256,8
+    CTEXT           "Authors here",IDC_ABOUT_AUTHORS,9,123,256,25
+    CONTROL         IDB_BITMAP_ABOUT,IDC_STATIC_IMAGE_ABOUT,"Static",SS_BITMAP | SS_REALSIZEIMAGE,9,0,256,44
+    EDITTEXT        IDC_ABOUT_LICENSE,9,153,256,43,ES_MULTILINE | ES_READONLY | WS_VSCROLL | NOT WS_TABSTOP
+END
+
+IDD_DIALOG_TYPES DIALOGEX 0, 0, 137, 294
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TRANSPARENT
+CAPTION "Types"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_HEX,54,6,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_INT32,54,42,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_INT16,54,60,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_INT8,54,78,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_DWORD,54,114,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_WORD,54,132,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_BYTE,54,150,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_VEC2,54,168,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_VEC3,54,186,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_QUAT,54,204,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_MATRIX,54,222,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Close",IDOK,4,275,129,13
+    LTEXT           "Int32:",IDC_STATIC,4,42,50,12
+    LTEXT           "Int16:",IDC_STATIC,4,60,50,12
+    LTEXT           "Int8:",IDC_STATIC,4,78,50,12
+    LTEXT           "Dword:",IDC_STATIC,4,114,50,12
+    LTEXT           "Word:",IDC_STATIC,4,132,50,12
+    LTEXT           "Byte:",IDC_STATIC,4,150,50,12
+    LTEXT           "Vec2:",IDC_STATIC,4,168,50,12
+    LTEXT           "Vec3:",IDC_STATIC,4,186,50,12
+    LTEXT           "Vec4:",IDC_STATIC,4,204,50,12
+    LTEXT           "Matrix:",IDC_STATIC,4,222,50,12
+    LTEXT           "Hex:",IDC_STATIC,4,6,50,12
+    EDITTEXT        IDC_EDIT_PCHAR,54,240,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    LTEXT           "Char Ptr:",IDC_STATIC,4,240,50,12
+    EDITTEXT        IDC_EDIT_INT64,54,24,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    LTEXT           "Int64:",IDC_STATIC,4,24,50,12
+    EDITTEXT        IDC_EDIT_PWCHAR,54,258,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    LTEXT           "Wide Char Ptr:",IDC_STATIC,4,258,50,12
+    LTEXT           "Qword:",IDC_STATIC,4,96,50,12
+    EDITTEXT        IDC_EDIT_QWORD,54,96,79,12,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+END
+
+IDD_DIALOG_EDIT DIALOGEX 0, 0, 405, 301
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Dialog"
+MENU IDR_MENU_EDITOR
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_CLASSES DIALOGEX 0, 0, 257, 239
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Class Browser"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,218,50,14,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,61,218,50,14,BS_FLAT
+    LTEXT           "Enter class name:",IDC_STATIC,7,14,63,8
+    EDITTEXT        IDC_CLASSNAME,72,13,111,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_CLASSLIST,"SysListView32",LVS_REPORT | LVS_SORTASCENDING | LVS_AUTOARRANGE | WS_BORDER | WS_TABSTOP,7,31,243,179
+    LTEXT           "Match %QUERY%",IDC_STATIC,190,15,60,8,WS_DISABLED
+END
+
+IDD_DIALOG_MODULES DIALOGEX 0, 0, 389, 236
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Modules"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Select",IDOK,280,215,50,14,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,332,215,50,14,BS_FLAT
+    LTEXT           "Module Name:",IDC_STATIC,8,8,48,8
+    EDITTEXT        IDC_MODULENAME,58,6,259,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_MODULELIST,"SysListView32",LVS_REPORT | LVS_SORTASCENDING | LVS_AUTOARRANGE | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,23,375,187
+    LTEXT           "Match %QUERY%",IDC_STATIC,323,8,60,8,WS_DISABLED
+    CONTROL         " Load Debug Symbols",IDC_MODULES_DEBUG_LOAD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,217,82,10
+END
+
+IDD_DIALOG_CONSOLE DIALOGEX 0, 0, 529, 204
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOPMOST
+CAPTION "Console"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_PROCSELECT DIALOGEX 0, 0, 201, 240
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Process Browser"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_PROCESS_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,187,167
+    DEFPUSHBUTTON   "Attach",IDC_ATTACH_PROCESS,7,203,187,14
+    PUSHBUTTON      "Refresh",IDC_REFRESH_PROCESS,7,219,187,14
+    CONTROL         "Filter process list",IDC_FILTER_PROCESS_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,177,187,10
+    CONTROL         "Load symbols (All modules)",IDC_CHECK_LOADSYMBOLS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,189,187,10
+END
+
+IDD_DIALOG_PROGRESS DIALOGEX 0, 0, 241, 33
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Loading..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROGRESSBAR,"msctls_progress32",PBS_SMOOTH | WS_BORDER,7,5,227,15
+    CTEXT           "",IDC_PROGRESSTEXT,7,22,227,8
+END
+
+IDD_DIALOG_PLUGINS DIALOGEX 0, 0, 301, 174
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Plugins"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_PLUGIN_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,287,137
+    PUSHBUTTON      "Close",IDOK,120,150,60,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,2,0,0
+ PRODUCTVERSION 1,2,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040004b0"
+        BEGIN
+            VALUE "FileVersion", "1.2.0.0"
+            VALUE "LegalCopyright", "Copyright (C) 2018"
+            VALUE "ProductVersion", "1.2.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x400, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 9
+        RIGHTMARGIN, 265
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_DIALOG_TYPES, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 133
+        VERTGUIDE, 54
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 288
+        HORZGUIDE, 18
+        HORZGUIDE, 24
+        HORZGUIDE, 36
+        HORZGUIDE, 42
+        HORZGUIDE, 54
+        HORZGUIDE, 60
+        HORZGUIDE, 72
+        HORZGUIDE, 78
+        HORZGUIDE, 90
+        HORZGUIDE, 96
+        HORZGUIDE, 108
+        HORZGUIDE, 114
+        HORZGUIDE, 126
+        HORZGUIDE, 132
+        HORZGUIDE, 144
+        HORZGUIDE, 150
+        HORZGUIDE, 162
+        HORZGUIDE, 168
+        HORZGUIDE, 180
+        HORZGUIDE, 186
+        HORZGUIDE, 198
+        HORZGUIDE, 204
+        HORZGUIDE, 216
+        HORZGUIDE, 222
+        HORZGUIDE, 234
+        HORZGUIDE, 240
+        HORZGUIDE, 252
+        HORZGUIDE, 258
+        HORZGUIDE, 270
+        HORZGUIDE, 275
+    END
+
+    IDD_DIALOG_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 398
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 294
+    END
+
+    IDD_DIALOG_CLASSES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_DIALOG_MODULES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 382
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+
+    IDD_DIALOG_CONSOLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 524
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_DIALOG_PROCSELECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 233
+    END
+
+    IDD_DIALOG_PROGRESS, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOG_PLUGINS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        VERTGUIDE, 120
+        VERTGUIDE, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+        HORZGUIDE, 144
+        HORZGUIDE, 150
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Ribbon
+//
+
+IDR_RIBBON              RT_RIBBON_XML           "res\\ribbon.mfcribbon-ms"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG_CLASSES AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_MODULES AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    100, 100, 0, 0,
+    100, 100, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 100, 0,
+    0, 0, 100, 100,
+    100, 0, 0, 0,
+    0, 100, 0, 0
+END
+
+IDD_DIALOG_CONSOLE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_TYPES AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_PROCSELECT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_PLUGINS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+//
+
+IDR_RCDATA_SYMSRV32     RCDATA                  "res\\symsrv32.dll"
+
+IDR_RCDATA_SYMSRV64     RCDATA                  "res\\symsrv64.dll"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDP_NTDLL_INIT_FAILED   "NTDLL initialization failed."
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_MANAGER       "&Windows..."
+    IDS_AUTHOR_STRING       "Dude719, IChooseYou, stevemk14ebr, leveln, buddyfavors, Timboy67678, DarthTon, ReUnioN, KN4CK3R, wj32, Douggem, changeofpace"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save document\nSave"
+    ID_FILE_SAVE_AS         "Save document as\nSave As"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle Status Bar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "Pane 1"
+    IDS_STATUS_PANE2        "Pane 2"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OUTPUT_WND          "Output"
+    IDS_PROPERTIES_WND      "Properties"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BUILD_TAB           "Build"
+    IDS_DEBUG_TAB           "Debug"
+    IDS_FIND_TAB            "Find"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EDIT_MENU           "Edit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUTTON_ZERO          "Zero Memory\nMemory"
+    ID_BUTTON_ONE           "Fill Memory with 1\nMemory"
+    ID_BUTTON_RANDOM        "Fill Random\nMemory"
+    ID_BUTTON_SWAP          "Swap endianness\nMemory"
+END
+
+STRINGTABLE
+BEGIN
+    ID_RECLASS_PLUGINS      "Opens ReClass Plugins dialog"
+    ID_FILE_OPEN_PDB        "Opens PDB for symbol searching"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_SAVEAS          "Save document as\nSave As"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_ID          "RCEXAPP"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#include "afxres.rc"      // Standard components
+#if !defined(_AFXDLL)
+#include "afxprint.rc"        // printing/print preview resources
+#include "afxribbon.rc"        // MFC ribbon and control bar resources
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
